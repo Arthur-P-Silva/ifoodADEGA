@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8FF;
+}
+
+header{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav{
+    background-color: #a00909;
+    padding: 15px;
+    text-align: center;
+  }
+ 
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+
+nav a:hover{
+    background-color: #7c0808;
+  }
+
+.resumo{ 
+    max-width: 900px; 
+    margin: 32px auto; 
+    padding: 16px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+}
+.item-pedido{ 
+    display: flex; 
+    align-items: center; 
+    border-bottom: 1px solid #eee; 
+    padding: 10px 0; 
+}
+
+.item-pedido img{ 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    margin-right: 15px; 
+}
+
+.item-info{ 
+    flex-grow: 1; 
+}
+
+.total-container{ 
+    text-align: right; 
+    margin-top: 20px; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+}
+
+.carrinho-vazio{
+    text-align: center; 
+    padding: 2rem; 
+    color: #888; 
+}
+        
+.quantidade-controls{
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 5px; 
+}
+
+.quantidade-controls button{
+    background-color: #f7c6c6;
+    border: 1px solid #f58787;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.confirmar{
+    display: block;
+    width: 100%;
+    background-color: #a00909;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+        
+.confirmar:hover{ 
+    background-color: #7c0808; 
+}
+        
+footer{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+  }

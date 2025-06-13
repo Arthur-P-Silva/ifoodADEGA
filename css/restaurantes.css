@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8FF;
+}
+
+header{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+section{
+  text-align: left;
+  padding: 10px;
+  height: 10px;
+}
+
+nav{
+    background-color: #a00909;
+    padding: 15px;
+    text-align: center;
+  }
+ 
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+
+nav a:hover{
+    background-color: #7c0808;
+  }
+
+main{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px; 
+    padding: 10px;
+}
+
+.produto {
+  background: #e23535;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.produto img {
+  width: 250px;
+  height: 125px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.produto h4 {
+  margin: 10px 0 5px;
+}
+
+.produto p {
+  margin: 5px 0;
+}
+
+.produto button {
+  margin-top: 10px;
+  background: #a00909;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #7c0808; 
+  transform: scale(1.1);
+}
+
+footer{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+  }

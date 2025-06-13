@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood ADEGA</title>
+    <link rel="shortcut icon" href="../img/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/pedidos.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+        <h1>Ifood ADEGA</h1>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+    </header>
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="./pedidos.html">Pedidos</a>
+    </nav>
+
+     <main class="resumo"> <!--ANTES: carrinho-container-->
+
+        <h2>Seu Carrinho</h2>
+        
+        <div id="itens-do-carrinho"></div>
+
+        <div class="total-container">
+            Total: <span id="total-do-pedido">R$ 0.00</span>
+        </div>
+        
+        <button class="confirmar" onclick="confirmarPedido()">Confirmar pedido</button> <!--ANTES: btn-confirmar-->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ifood ADEGA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+<script src="../js/script.js"></script>
+
+<!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+</html>

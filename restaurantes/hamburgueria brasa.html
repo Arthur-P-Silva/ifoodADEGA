@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood ADEGA</title>
+    <link rel="shortcut icon" href="../img/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/restaurantes.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+        <h1>Ifood ADEGA</h1>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+    </header>
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="../categorias/pedidos.html">Pedidos</a>
+    </nav>
+
+    <section>
+        <img class="logo" src="../img/logo hamburgueria na brasa.jpg" alt="Logo Hamburgueria na Brasa">
+    </section>
+
+    <main class="produtos">
+    <div class="produto">
+      <img src="../imgProd/Hamburguer de soja.jpg" alt="Hamburguer de soja">
+      <h4>Hamburguer de soja</h4>
+      <p>R$ 25.00</p>
+      <button id = 'sojaBurguer' onclick="adicionarProduto('Hamburguer de soja', 25.00, '../imgProd/Hamburguer de soja.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/Hamburguer-mestre.jpg" alt="Hamburguer">
+      <h4>Hamburguer Mestre</h4>
+      <p>R$ 28.50</p>
+      <button id="mestreBurguer" onclick="adicionarProduto('Hamburguer Mestre', 28.50, '../imgProd/Hamburguer-mestre.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/Smash-Burguer.jpg" alt="Hamburguer smash">
+      <h4>Smash Burguer</h4>
+      <p>R$ 24.50</p>
+      <button id="smashBurguer" onclick="adicionarProduto('smash Burguer', 24.50, '../imgProd/Smash-Burguer.jpg')">Escolher produto</button>
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ifood ADEGA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+<script src="../js/script.js"></script>
+
+<!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+</html>

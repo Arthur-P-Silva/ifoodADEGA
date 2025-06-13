@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood ADEGA</title>
+    <link rel="shortcut icon" href="../img/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/restaurantes.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+        <h1>Ifood ADEGA</h1>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+    </header>
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="../categorias/pedidos.html">Pedidos</a>
+    </nav>
+
+    <section>
+        <img class="logo" src="../img/logo pastelaria no capricho.jpg" alt="Logo Pastelaria No Capricho">
+    </section>
+
+    <main class="produtos">
+    <div class="produto">
+      <img src="../imgProd/pastel de bacon.jpg" alt="Pastel de bacon">
+      <h4>Pastel de bacon</h4>
+      <p>R$ 15.00</p>
+      <button id = 'baconPastel' onclick="adicionarProduto('Pastel de bacon', 15.00, '../imgProd/pastel de bacon.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/pastel de carne.jpg" alt="Pastel de carne">
+      <h4>Pastel de carne</h4>
+      <p>R$ 10.00</p>
+      <button id="carnePastel" onclick="adicionarProduto('Pastel de carne', 10.00, '../imgProd/pastel de carne.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/pastel de carne seca.jpg" alt="Pastel de carne seca">
+      <h4>Pastel de carne seca</h4>
+      <p>R$ 15.00</p>
+      <button id="secaPastel" onclick="adicionarProduto('Pastel de carne seca', 15.00, '../imgProd/pastel de carne seca.jpg')">Escolher produto</button>
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ifood ADEGA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+<script src="../js/script.js"></script>
+
+<!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+</html>

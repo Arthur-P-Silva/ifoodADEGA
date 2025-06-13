@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood ADEGA</title>
+    <link rel="shortcut icon" href="../img/logo png.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/restaurantes.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+        <h1>Ifood ADEGA</h1>
+        <img class="logo" src="../img/logo png.png" alt="logo Ifood ADEGA">
+    </header>
+    <nav>
+        <a href="../index.html">Início</a>
+        <a href="../categorias/pedidos.html">Pedidos</a>
+    </nav>
+
+    <section>
+        <img class="logo" src="../img/logo pizzaria bela massa.jpg" alt="Logo Pizzaria Bella Massa">
+    </section>
+
+    <main class="produtos">
+    <div class="produto">
+      <img src="../imgProd/pizza 4 queijos.jpg" alt="Pizza de quatro queijos">
+      <h4>Pizza 4 queijos</h4>
+      <p>R$ 55.00</p>
+      <button id = 'queijoPizza' onclick="adicionarProduto('Pizza 4 queijos', 55.00, '../imgProd/pizza 4 queijos.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/pizza calabresa.jpg" alt="Pizza de calabresas">
+      <h4>Pizza calabresa</h4>
+      <p>R$ 50.00</p>
+      <button id="calabresaPizza" onclick="adicionarProduto('Pizza calabresa', 50.00, '../imgProd/pizza calabresa.jpg')">Escolher produto</button>
+    </div>
+    <div class="produto">
+      <img src="../imgProd/Agua.jpg" alt="Água">
+      <h4>Água</h4>
+      <p>R$ 6.00</p>
+      <button id="agua" onclick="adicionarProduto('Água', 6.00, '../imgProd/Agua.jpg')">Escolher produto</button>
+    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ifood ADEGA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+<script src="../js/script.js"></script>
+
+<!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+</html>

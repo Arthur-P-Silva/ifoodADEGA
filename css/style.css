@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8FF;
+}
+
+header{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav{
+    background-color: #a00909;
+    padding: 15px;
+    text-align: center;
+  }
+ 
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+
+nav a:hover{
+    background-color: #7c0808;
+  }
+
+main{
+    padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;
+  }
+ 
+.lojas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+.lojas a{
+    text-decoration: none; /*Tira sublinhado */
+  }
+
+.lojas a:hover{transform: scale(1.1);
+     /*Aumenta tamanho*/
+  }
+ 
+.produto{
+    background-color:#cf0d0d;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+ 
+.produto img{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+ 
+.produto h3{
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+footer{
+    background-color: rgb(177, 18, 49);
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+  }
