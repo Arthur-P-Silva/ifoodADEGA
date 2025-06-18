@@ -1,3 +1,3 @@
-"# Ifood-ADEGA" 
+# Ifood-ADEGA
 
 Projeto de sistema de delivery
