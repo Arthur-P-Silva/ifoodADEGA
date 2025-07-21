@@ -94,12 +94,23 @@ button:hover{
 }
 
 footer{
-    background-color: rgb(177, 18, 49);
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    padding: 10px;
-  }
+background-color: rgb(177, 18, 49);
+color: white;
+text-align: center;
+position: fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+padding: 10px;
+}
+
+@media screen and (max-width: 1200px){
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+    
+div.produto{
+    margin-bottom: 35px;
+    }
+}
